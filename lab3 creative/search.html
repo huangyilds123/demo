@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+ 
+
+
+  <title>lab3 creative</title>
+ 
+  
+</head>
+
+<body>
+  
+  
+   <h1>Search a city in UT</h1>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+   <body style="background-color:white;">
+<nav id="navbar-example2" class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="https://www.byuarmwrestling.com">Current weather</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-link" href="search.html">Search a city in UT</a>
+    </li>
+   
+  </ul>
+</nav>
+
+    <div id="app">
+   <div v-if="loading">
+      <p>Loading...</p>
+    </div>
+    
+    
+    <div v-else>
+       <body>
+           
+  <div id="app">
+ 
+    <h1>Please Enter a city (First letter should be <b>upper case</b>)</h1>
+    
+    
+    <form v-on:keyup.prevent="fetchREST">
+        <form v-on:submit.prevent="fetchREST" >
+      <input v-on:keyup.prevent="fetchREST" type="text" v-model="prefix">
+    </form>
+    <ul>
+      <li v-for="item in cities">
+        <b>{{ item.name }}</b>
+      </li>
+    </ul>
+ 
+    
+  </div>
+</div>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+    </div>
+  
+</body>
+
+<script src="https://unpkg.com/vue-star-rating/dist/star-rating.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+ <script src="https://unpkg.com/vue"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.2/dist/vue.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="lib/moment/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/......"></script>
+ <script src="script.js"></script>
+<script>
+var day = moment("1995-12-25");
+
+
+ 
+</script>
+ 
+</script>
+
+</html>
